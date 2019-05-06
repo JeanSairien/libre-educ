@@ -19,8 +19,25 @@ body {
 }
 
 .content-section {
-  /*padding-top: 7.5rem;*/
-  /*padding-bottom: 7.5rem;*/
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.content-carousel{
+/*  padding-top:7.5rem;
+  padding-bottom:7.5rem*/
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 50%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
 }
 
 .content-section-heading h2 {
@@ -255,7 +272,7 @@ h6 {
 
 .portfolio-item .caption .caption-content {
   color: #fff;
-  margin: auto 2rem 2rem;
+  margin: 20% 0% 0% 0%;
 }
 
 .portfolio-item .caption .caption-content h2 {
