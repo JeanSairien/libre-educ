@@ -18,10 +18,34 @@ body {
   padding: 1.25rem 2.5rem;
 }
 
+.math{
+  padding-left: 10%;
+}
+
+
+
+.figcaption{
+  margin-top: 0;
+  padding-left: 2%;
+  float:left;
+}
+
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
 }
+
+.border-bottom{
+ /* background: -webkit-gradient(linear, left top, right top, from(rgba(79, 87, 107, 0.1)), to(rgba(79, 87, 107, 1))), url("../img/bg-masthead.jpg");
+  background: linear-gradient(70deg, rgba(79, 87, 107, 1) 0%,  rgba(79, 87, 107, 1) 100%), url("../img/bg-masthead.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;*/
+  border-bottom: 0.6rem solid #78D2D5!important ;
+}
+
+
 
 .content-carousel{
 /*  padding-top:7.5rem;
@@ -102,25 +126,48 @@ h6 {
   font-weight: 800;
 }
 
+
+
 .masthead {
-  min-height: 30rem;
+  min-height: 20rem;
   position: relative;
   display: table;
   width: 100%;
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(79, 87, 107, 0.1)), to(rgba(79, 87, 107, 0.1))), url("../img/bg-masthead.jpg");
+  background: linear-gradient(70deg, rgba(79, 87, 107, 0.1) 0%,  rgba(79, 87, 107, 0.1) 100%), url("../img/bg-masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.mastheadeduc {
+  /*min-height: 20rem;*/
+  position: relative;
+  display: table;
+  /*width: 100%;*/
+  /*height: auto;*/
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(79, 87, 107, 0.1)), to(rgba(79, 87, 107, 1))), url("../img/bg-masthead.jpg");
+  background: linear-gradient(70deg, rgba(79, 87, 107, 1) 0%,  rgba(79, 87, 107, 1) 100%), url("../img/bg-masthead.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-bottom: 0.6rem solid #78D2D5 ;
+}
+
+
+
+
 .masthead h1 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+
 }
 
 @media (min-width: 992px) {
