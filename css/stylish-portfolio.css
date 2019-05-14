@@ -320,16 +320,21 @@ h6 {
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: 20% 0% 0% 0%;
+  text-shadow: 2px 2px 2px black; 
 }
+
+
 
 .portfolio-item .caption .caption-content h2 {
   font-size: 0.8rem;
   text-transform: uppercase;
+  text-shadow: 2px 2px 2px black;
 }
 
 .portfolio-item .caption .caption-content p {
-  font-weight: 300;
+  font-weight: 600;
   font-size: 1.2rem;
+  text-shadow: 4px 4px 4px black;
 }
 
 @media (min-width: 992px) {
